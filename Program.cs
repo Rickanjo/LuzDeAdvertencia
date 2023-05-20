@@ -19,3 +19,4 @@ if (temp == "A" && (press == "A" || rot == "D")) {
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("Luz de advertência estará DESATIVADA.");
 }
+Console.ResetColor();
